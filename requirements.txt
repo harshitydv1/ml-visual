@@ -1,0 +1,10 @@
+streamlit
+nltk
+scikit-learn
+gensim
+transformers
+torch
+plotly
+matplotlib
+numpy
+pandas
