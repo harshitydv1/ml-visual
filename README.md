@@ -29,7 +29,7 @@ ml-visual/
 ├── app.py                  # Main Streamlit entry point
 ├── download_nltk.py        # Pre-download NLTK resources (run once)
 ├── requirements.txt        # Python dependencies
-├── runtime.txt             # Python version pin (3.13.0)
+├── runtime.txt             # Python version pin (3.12.10)
 ├── tabs/
 │   ├── text_cleaning.py
 │   ├── tokenization.py
@@ -48,7 +48,7 @@ ml-visual/
 
 ### Prerequisites
 
-- Python **3.13+**
+- Python **3.12+**
 - `pip`
 
 ### 1. Clone the repository
@@ -118,7 +118,7 @@ The app will open automatically at `http://localhost:8501`.
    ```
    python download_nltk.py
    ```
-3. Set the **Python version** in `runtime.txt` (already set to `python-3.13.0`).
+3. Set the **Python version** in `runtime.txt` (set to `python-3.12.10`).
 
 ---
 
