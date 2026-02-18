@@ -15,7 +15,7 @@ The app is organized into **7 interactive tabs**, each covering a key stage in t
 | 🔤 **Normalization** | Stemming and lemmatization side-by-side comparison |
 | 📖 **Vocabulary** | Frequency distributions and vocabulary statistics |
 | 🔢 **Vectorization** | Bag-of-Words and TF-IDF matrix visualizations |
-| 🧠 **Word Embeddings** | Static word embeddings (Word2Vec via Gensim) with similarity exploration |
+| 🧠 **Word Embeddings** | Local distributional word embeddings with similarity exploration |
 | 🌐 **Contextual Embeddings** | Transformer-based (HuggingFace) contextual representations |
 
 The **sidebar** lets you tune every preprocessing option globally — changes cascade instantly through all downstream stages.
@@ -97,7 +97,6 @@ The app will open automatically at `http://localhost:8501`.
 | `streamlit` | Web app framework |
 | `nltk` | Tokenization, stopwords, stemming, lemmatization |
 | `scikit-learn` | BoW & TF-IDF vectorization |
-| `gensim` | Word2Vec word embeddings |
 | `transformers` | HuggingFace contextual embeddings |
 | `torch` | PyTorch backend for transformers |
 | `plotly` | Interactive charts |
